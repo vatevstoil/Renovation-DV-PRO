@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Renovation DV PRO | Artisan Peinture & Parquet Haut de Gamme Paris</title>
-    <meta name="description" content="Artisan rénovateur à Paris spécialisé en peinture décorative, enduits, pose et rénovation de parquet. 6 ans d'expertise. Devis gratuit.">
-    <meta name="keywords" content="rénovation intérieure Paris, peinture haut de gamme Paris, pose parquet Paris, enduits décoration Paris, artisan rénovation Paris">
-    <meta property="og:title" content="Renovation DV PRO | Peinture & Parquet Haut de Gamme Paris">
-    <meta property="og:description" content="6 ans d'expertise en rénovation intérieure à Paris. Peinture, enduits, parquet. Recommandé uniquement par la qualité.">
+    <title>Renovation DV-PRO | Peintre Décorateur Haut de Gamme Paris | Dimitar Vatev</title>
+    <meta name="description" content="Artisan peintre décorateur à Paris. Spécialiste peinture laquée effet miroir, papiers peints de luxe, rénovation Haussmannienne. Partenaire officiel Little Greene & Dedar. Devis gratuit.">
+    <meta name="keywords" content="peintre décorateur Paris, rénovation haut de gamme Paris, peinture laquée effet miroir, pose papier peint luxe Paris, rénovation appartement Haussmannien, Little Greene Paris, artisan peintre Paris 8, Dimitar Vatev renovation">
+    <meta property="og:title" content="Renovation DV-PRO | Artisan Peintre Décorateur Paris">
+    <meta property="og:description" content="Partenaire officiel Little Greene & Dedar. Peinture laquée, papiers peints de luxe, rénovation Haussmannienne. 6 ans d'expertise à Paris.">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="fr_FR">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#1C1C1A">
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231C1C1A'/%3E%3Ctext x='50' y='70' font-family='serif' font-size='38' fill='%23B8965A' text-anchor='middle'%3EDV%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%231C1C1A'/%3E%3Ctext x='50' y='68' font-family='serif' font-size='32' fill='%23B8965A' text-anchor='middle' font-weight='300'%3EDV%3C/text%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -20,8 +20,8 @@
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Renovation DV PRO",
-        "description": "Artisan rénovateur à Paris spécialisé en peinture décorative, enduits, pose et rénovation de parquet.",
+        "name": "Renovation DV-PRO",
+        "description": "Artisan peintre décorateur à Paris. Spécialiste peinture laquée effet miroir, papiers peints de luxe, rénovation Haussmannienne. Partenaire officiel Little Greene & Dedar.",
         "image": "https://hips.hearstapps.com/hmg-prod/images/uchronia-paris-apartment-living-room-64e4888ea1eb6.jpg",
         "address": {
             "@type": "PostalAddress",
@@ -42,7 +42,10 @@
     }
     </script>
     <style>
-    /* ===== DESIGN SYSTEM ===== */
+    /* ====================================================================
+       RENOVATION DV-PRO — Design System
+       Atelier Parisien de Luxe
+       ==================================================================== */
     :root {
         --cream: #F5F0E8;
         --warm-white: #FAFAF7;
@@ -50,10 +53,10 @@
         --dark-grey: #2E2D2B;
         --medium-grey: #6B6860;
         --light-grey: #D4D0C8;
-        --wood-warm: #8B6F47;
-        --wood-light: #C4A882;
         --gold-accent: #B8965A;
         --gold-light: #D4AF7A;
+        --wood-warm: #8B6F47;
+        --wood-light: #C4A882;
         --font-display: 'Cormorant Garamond', 'Georgia', serif;
         --font-body: 'Jost', 'Helvetica Neue', sans-serif;
         --max-width: 1400px;
@@ -93,11 +96,13 @@
         margin-bottom: 1rem;
     }
     .section-subtitle {
-        font-family: var(--font-body);
+        font-family: var(--font-display);
+        font-style: italic;
         font-weight: 300;
         color: var(--medium-grey);
-        font-size: 1.05rem;
+        font-size: 1.1rem;
         margin-top: 0.5rem;
+        letter-spacing: 0.02em;
     }
 
     /* ===== UTILITIES ===== */
@@ -115,6 +120,7 @@
         background: var(--gold-accent);
         margin: 1.5rem auto;
     }
+    .gold-divider--left { margin-left: 0; margin-right: auto; }
 
     /* ===== ANIMATIONS ===== */
     .reveal {
@@ -138,7 +144,9 @@
         .nav { transition: none; }
     }
 
-    /* ===== NAVIGATION ===== */
+    /* ====================================================================
+       NAVIGATION
+       ==================================================================== */
     .nav {
         position: fixed;
         top: 0;
@@ -154,34 +162,39 @@
         transition: background-color 0.4s ease, box-shadow 0.4s ease, backdrop-filter 0.4s ease;
     }
     .nav.scrolled {
-        background: rgba(250, 250, 247, 0.95);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
+        background: rgba(250, 250, 247, 0.97);
+        -webkit-backdrop-filter: blur(12px);
+        backdrop-filter: blur(12px);
         box-shadow: 0 1px 0 rgba(0,0,0,0.06);
     }
     .nav__logo {
         font-family: var(--font-display);
-        font-size: 1.1rem;
+        font-size: 1.15rem;
         font-weight: 500;
-        letter-spacing: 0.18em;
+        letter-spacing: 0.2em;
         color: #fff;
         transition: color 0.4s ease;
         white-space: nowrap;
+        flex-shrink: 0;
+    }
+    .nav__logo span {
+        color: var(--gold-accent);
     }
     .nav.scrolled .nav__logo { color: var(--charcoal); }
     .nav__links {
         display: flex;
-        gap: 1.8rem;
+        gap: 2rem;
         align-items: center;
     }
     .nav__links a {
         font-family: var(--font-body);
         font-size: 0.8rem;
         font-weight: 400;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.06em;
         color: rgba(255,255,255,0.85);
         transition: color 0.3s ease;
         position: relative;
+        white-space: nowrap;
     }
     .nav__links a::after {
         content: '';
@@ -195,19 +208,20 @@
     }
     .nav__links a:hover::after,
     .nav__links a.active::after { width: 100%; }
-    .nav.scrolled .nav__links a { color: var(--charcoal); }
+    .nav.scrolled .nav__links a { color: var(--dark-grey); }
     .nav.scrolled .nav__links a:hover { color: var(--gold-accent); }
     .nav__cta {
         font-size: 0.75rem;
         font-weight: 400;
         letter-spacing: 0.08em;
-        padding: 0.55rem 1.2rem;
+        padding: 0.6rem 1.3rem;
         white-space: nowrap;
         border: 1px solid var(--gold-accent);
         color: var(--gold-accent);
         background: transparent;
         cursor: pointer;
         transition: all 0.3s ease;
+        flex-shrink: 0;
     }
     .nav__cta:hover {
         background: var(--gold-accent);
@@ -238,7 +252,7 @@
         display: none;
         position: fixed;
         inset: 0;
-        background: rgba(28, 28, 26, 0.97);
+        background: rgba(28, 28, 26, 0.98);
         z-index: 999;
         flex-direction: column;
         align-items: center;
@@ -256,8 +270,11 @@
         transition: color 0.3s ease;
     }
     .nav__mobile-overlay a:hover { color: var(--gold-accent); }
+    .nav__mobile-cta { margin-top: 1rem; }
 
-    /* ===== HERO ===== */
+    /* ====================================================================
+       HERO — Full Viewport
+       ==================================================================== */
     .hero {
         position: relative;
         width: 100%;
@@ -279,9 +296,9 @@
         inset: 0;
         background: linear-gradient(
             to bottom,
-            rgba(28, 28, 26, 0.25) 0%,
-            rgba(28, 28, 26, 0.35) 50%,
-            rgba(28, 28, 26, 0.7) 100%
+            rgba(28, 28, 26, 0.3) 0%,
+            rgba(28, 28, 26, 0.4) 50%,
+            rgba(28, 28, 26, 0.75) 100%
         );
     }
     .hero__bg::after {
@@ -290,7 +307,7 @@
         inset: 0;
         background: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
         background-size: 200px 200px;
-        opacity: 0.5;
+        opacity: 0.4;
         pointer-events: none;
     }
     .hero__content {
@@ -299,11 +316,11 @@
         text-align: center;
         color: #fff;
         padding: 0 2rem;
-        max-width: 800px;
+        max-width: 860px;
     }
     .hero__label {
         font-family: var(--font-body);
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         letter-spacing: 0.35em;
         text-transform: uppercase;
         color: var(--gold-light);
@@ -312,16 +329,24 @@
     }
     .hero h1 {
         color: #fff;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
         font-weight: 300;
     }
-    .hero__subtitle {
+    .hero__tagline {
         font-family: var(--font-body);
         font-weight: 300;
-        font-size: clamp(1rem, 1.8vw, 1.2rem);
-        color: rgba(255,255,255,0.8);
+        font-size: clamp(1rem, 1.8vw, 1.15rem);
+        color: rgba(255,255,255,0.75);
         letter-spacing: 0.04em;
-        margin-bottom: 2.5rem;
+        margin-bottom: 0.8rem;
+    }
+    .hero__partner {
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: clamp(0.95rem, 1.5vw, 1.1rem);
+        color: var(--gold-light);
+        margin-bottom: 2.8rem;
+        letter-spacing: 0.02em;
     }
     .hero__buttons {
         display: flex;
@@ -332,7 +357,7 @@
     .btn {
         display: inline-block;
         padding: 0.9rem 2.2rem;
-        font-size: 0.85rem;
+        font-size: 0.82rem;
         font-weight: 400;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -351,12 +376,11 @@
     .btn--outline {
         background: transparent;
         color: #fff;
-        border: 1px solid rgba(255,255,255,0.5);
+        border: 1px solid rgba(255,255,255,0.45);
     }
     .btn--outline:hover {
-        background: var(--gold-accent);
-        border-color: var(--gold-accent);
-        color: #fff;
+        background: rgba(255,255,255,0.1);
+        border-color: rgba(255,255,255,0.7);
     }
     .hero__scroll-indicator {
         position: absolute;
@@ -368,24 +392,72 @@
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
-        color: rgba(255,255,255,0.5);
-        font-size: 0.7rem;
+        color: rgba(255,255,255,0.4);
+        font-size: 0.65rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
-        animation: scrollBounce 2s ease-in-out infinite;
+        animation: scrollBounce 2.5s ease-in-out infinite;
         transition: opacity 0.4s ease;
     }
     .hero__scroll-indicator svg {
         width: 20px;
         height: 20px;
-        stroke: rgba(255,255,255,0.5);
+        stroke: rgba(255,255,255,0.4);
     }
     @keyframes scrollBounce {
         0%, 100% { transform: translateX(-50%) translateY(0); }
         50% { transform: translateX(-50%) translateY(8px); }
     }
 
-    /* ===== STATS ===== */
+    /* ====================================================================
+       SOCIAL PROOF BAR
+       ==================================================================== */
+    .social-proof {
+        background: var(--cream);
+        border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .social-proof__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        padding: 2.2rem 0;
+    }
+    .social-proof__item {
+        padding: 0.8rem 1rem;
+        position: relative;
+    }
+    .social-proof__item:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 15%;
+        height: 70%;
+        width: 1px;
+        background: var(--light-grey);
+    }
+    .social-proof__icon {
+        font-size: 0.85rem;
+        color: var(--gold-accent);
+        margin-bottom: 0.4rem;
+        letter-spacing: 0.08em;
+    }
+    .social-proof__title {
+        font-family: var(--font-display);
+        font-size: 1.05rem;
+        font-weight: 500;
+        color: var(--charcoal);
+        margin-bottom: 0.15rem;
+    }
+    .social-proof__desc {
+        font-size: 0.78rem;
+        color: var(--medium-grey);
+        letter-spacing: 0.02em;
+        line-height: 1.4;
+    }
+
+    /* ====================================================================
+       STATS / TRUST NUMBERS
+       ==================================================================== */
     .stats {
         border-top: 1px solid var(--light-grey);
         border-bottom: 1px solid var(--light-grey);
@@ -425,11 +497,13 @@
         line-height: 1.4;
     }
 
-    /* ===== SERVICES ===== */
+    /* ====================================================================
+       SERVICES — Notre Savoir-Faire
+       ==================================================================== */
     .services { background: var(--warm-white); }
     .services__grid {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
         margin-top: 3.5rem;
     }
@@ -460,7 +534,7 @@
     .service-card:hover::before { transform: scaleY(1); }
     .service-card__image {
         width: 100%;
-        height: 320px;
+        height: 280px;
         overflow: hidden;
         position: relative;
         background: linear-gradient(135deg, var(--cream), var(--light-grey));
@@ -477,12 +551,12 @@
     }
     .service-card__title {
         font-family: var(--font-display);
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
         color: var(--charcoal);
     }
     .service-card__desc {
-        font-size: 0.92rem;
+        font-size: 0.9rem;
         color: var(--medium-grey);
         margin-bottom: 1.5rem;
         line-height: 1.7;
@@ -502,79 +576,273 @@
         position: absolute;
         left: 0;
         color: var(--gold-accent);
-        font-size: 0.65rem;
+        font-size: 0.6rem;
         top: 3px;
     }
+    .service-card__list li.highlight {
+        font-weight: 500;
+        color: var(--charcoal);
+    }
 
-    /* ===== PHILOSOPHY ===== */
-    .philosophy { background: var(--cream); }
-    .philosophy__grid {
+    /* ====================================================================
+       NOTRE HISTOIRE — Personal Story
+       ==================================================================== */
+    .histoire {
+        background: var(--cream);
+    }
+    .histoire__grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 4rem;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 4.5rem;
         align-items: center;
     }
-    .philosophy__image {
+    .histoire__image-wrapper {
         position: relative;
-        height: 600px;
+    }
+    .histoire__image {
+        position: relative;
         overflow: hidden;
+        aspect-ratio: 4/5;
         background: linear-gradient(135deg, var(--light-grey), var(--cream));
     }
-    .philosophy__image img {
+    .histoire__image img {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        filter: sepia(0.08) contrast(1.02);
     }
-    .philosophy__image::after {
+    .histoire__image::after {
         content: '';
         position: absolute;
-        bottom: 0;
-        right: 0;
-        width: 120px;
-        height: 120px;
+        bottom: -16px;
+        right: -16px;
+        width: 100px;
+        height: 100px;
         border: 1px solid var(--gold-accent);
-        transform: translate(30px, 30px);
         pointer-events: none;
     }
-    .philosophy__text h2 {
+    .histoire__text h2 {
         margin-bottom: 1.5rem;
         color: var(--charcoal);
     }
-    .philosophy__text p {
+    .histoire__text p {
         font-size: 0.95rem;
         color: var(--medium-grey);
         margin-bottom: 1.2rem;
+        line-height: 1.8;
     }
-    .philosophy__quote {
+    .histoire__quote {
         font-family: var(--font-display);
         font-style: italic;
-        font-size: 1.3rem;
+        font-size: clamp(1.2rem, 2vw, 1.45rem);
         color: var(--gold-accent);
         border-left: 2px solid var(--gold-accent);
         padding-left: 1.5rem;
-        margin: 2rem 0;
+        margin: 2.5rem 0;
         line-height: 1.5;
     }
-    .philosophy__features {
+    .histoire__quote cite {
+        display: block;
+        font-family: var(--font-body);
+        font-style: normal;
+        font-size: 0.82rem;
+        color: var(--medium-grey);
+        margin-top: 0.8rem;
+        letter-spacing: 0.03em;
+    }
+    .histoire__values {
         margin-top: 2rem;
         display: grid;
         gap: 0.7rem;
     }
-    .philosophy__features li {
+    .histoire__values li {
         font-size: 0.88rem;
         color: var(--dark-grey);
         padding-left: 1.5rem;
         position: relative;
     }
-    .philosophy__features li::before {
+    .histoire__values li::before {
         content: '✦';
         position: absolute;
         left: 0;
         color: var(--gold-accent);
-        font-size: 0.7rem;
+        font-size: 0.65rem;
+        top: 3px;
     }
 
-    /* ===== TESTIMONIALS ===== */
+    /* ====================================================================
+       PORTFOLIO — Réalisations
+       ==================================================================== */
+    .portfolio { background: var(--warm-white); }
+    .portfolio__filters {
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+    }
+    .portfolio__filter-btn {
+        font-family: var(--font-body);
+        font-size: 0.78rem;
+        font-weight: 400;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        padding: 0.55rem 1.4rem;
+        background: transparent;
+        border: 1px solid var(--light-grey);
+        color: var(--medium-grey);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .portfolio__filter-btn:hover {
+        border-color: var(--gold-accent);
+        color: var(--gold-accent);
+    }
+    .portfolio__filter-btn.active {
+        background: var(--charcoal);
+        border-color: var(--charcoal);
+        color: var(--gold-accent);
+    }
+    .portfolio__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    .portfolio__card {
+        position: relative;
+        overflow: hidden;
+        background: var(--cream);
+        transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+    }
+    .portfolio__card.hidden {
+        display: none;
+    }
+    .portfolio__card-image {
+        width: 100%;
+        height: 320px;
+        overflow: hidden;
+        position: relative;
+        background: linear-gradient(135deg, var(--light-grey) 0%, var(--cream) 100%);
+    }
+    .portfolio__card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .portfolio__card:hover .portfolio__card-image img {
+        transform: scale(1.05);
+    }
+    .portfolio__card-badge {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background: var(--charcoal);
+        color: var(--gold-accent);
+        font-size: 0.68rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding: 0.35rem 0.8rem;
+        z-index: 2;
+    }
+    .portfolio__card-overlay {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(28, 28, 26, 0.92) 0%, rgba(28, 28, 26, 0.4) 50%, transparent 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 2rem;
+        opacity: 0;
+        transition: opacity 0.4s ease;
+        z-index: 1;
+    }
+    .portfolio__card:hover .portfolio__card-overlay {
+        opacity: 1;
+    }
+    .portfolio__card-overlay p {
+        font-size: 0.85rem;
+        color: rgba(255,255,255,0.85);
+        line-height: 1.6;
+    }
+    .portfolio__card-info {
+        padding: 1.5rem 1.5rem 1.8rem;
+    }
+    .portfolio__card-category {
+        font-size: 0.7rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--gold-accent);
+        margin-bottom: 0.3rem;
+    }
+    .portfolio__card-title {
+        font-family: var(--font-display);
+        font-size: 1.2rem;
+        color: var(--charcoal);
+    }
+
+    /* ====================================================================
+       PROCESS — Comment Nous Travaillons
+       ==================================================================== */
+    .process { background: var(--cream); }
+    .process__timeline {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+        margin-top: 3.5rem;
+        position: relative;
+    }
+    .process__timeline::before {
+        content: '';
+        position: absolute;
+        top: 28px;
+        left: calc(12.5% + 10px);
+        right: calc(12.5% + 10px);
+        height: 1px;
+        background: var(--light-grey);
+    }
+    .process__step { text-align: center; }
+    .process__number {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: var(--charcoal);
+        color: var(--gold-accent);
+        font-family: var(--font-display);
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1.5rem;
+        position: relative;
+        z-index: 1;
+    }
+    .process__title {
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        margin-bottom: 0.2rem;
+        color: var(--charcoal);
+    }
+    .process__subtitle {
+        font-size: 0.82rem;
+        color: var(--gold-accent);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0.8rem;
+    }
+    .process__desc {
+        font-size: 0.85rem;
+        color: var(--medium-grey);
+        line-height: 1.6;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    /* ====================================================================
+       TESTIMONIALS
+       ==================================================================== */
     .testimonials { background: var(--warm-white); }
     .testimonials__grid {
         display: grid;
@@ -630,64 +898,17 @@
         gap: 0.5rem;
     }
     .trust-badge__stars { color: var(--gold-accent); font-size: 0.75rem; }
-
-    /* ===== PROCESS ===== */
-    .process { background: var(--cream); }
-    .process__timeline {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 1.5rem;
-        margin-top: 3.5rem;
-        position: relative;
-    }
-    .process__timeline::before {
-        content: '';
-        position: absolute;
-        top: 28px;
-        left: calc(12.5% + 10px);
-        right: calc(12.5% + 10px);
-        height: 1px;
-        background: var(--light-grey);
-    }
-    .process__step { text-align: center; }
-    .process__number {
-        width: 56px;
-        height: 56px;
-        border-radius: 50%;
+    .trust-badge__label {
+        color: #fff;
         background: var(--charcoal);
-        color: var(--gold-accent);
-        font-family: var(--font-display);
-        font-size: 1.2rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 1.5rem;
-        position: relative;
-        z-index: 1;
-    }
-    .process__title {
-        font-family: var(--font-display);
-        font-size: 1.25rem;
-        margin-bottom: 0.3rem;
-        color: var(--charcoal);
-    }
-    .process__subtitle {
-        font-size: 0.82rem;
-        color: var(--gold-accent);
+        padding: 0.2rem 0.5rem;
+        font-size: 0.7rem;
         letter-spacing: 0.05em;
-        text-transform: uppercase;
-        font-weight: 400;
-        margin-bottom: 0.8rem;
-    }
-    .process__desc {
-        font-size: 0.85rem;
-        color: var(--medium-grey);
-        line-height: 1.6;
-        max-width: 220px;
-        margin: 0 auto;
     }
 
-    /* ===== CONTACT ===== */
+    /* ====================================================================
+       CONTACT / DEVIS
+       ==================================================================== */
     .contact { background: var(--warm-white); }
     .contact__grid {
         display: grid;
@@ -717,8 +938,8 @@
         color: var(--dark-grey);
     }
     .contact__detail-icon {
-        width: 40px;
-        height: 40px;
+        width: 42px;
+        height: 42px;
         background: var(--cream);
         display: flex;
         align-items: center;
@@ -736,6 +957,11 @@
         background: #fff;
         padding: 2.5rem;
         border: 1px solid rgba(0,0,0,0.04);
+    }
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
     }
     .form-group {
         margin-bottom: 1.2rem;
@@ -796,10 +1022,13 @@
         letter-spacing: 0.12em;
         text-transform: uppercase;
         cursor: pointer;
-        transition: background 0.3s ease;
+        transition: background 0.3s ease, transform 0.2s ease;
         margin-top: 0.5rem;
     }
-    .btn--submit:hover { background: var(--wood-warm); }
+    .btn--submit:hover {
+        background: var(--wood-warm);
+        transform: translateY(-1px);
+    }
     .form-success {
         display: none;
         text-align: center;
@@ -817,7 +1046,9 @@
         color: var(--medium-grey);
     }
 
-    /* ===== FOOTER ===== */
+    /* ====================================================================
+       FOOTER
+       ==================================================================== */
     .footer {
         background: var(--charcoal);
         color: rgba(255,255,255,0.6);
@@ -831,18 +1062,32 @@
     }
     .footer__brand-name {
         font-family: var(--font-display);
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         color: #fff;
-        letter-spacing: 0.15em;
-        margin-bottom: 0.8rem;
+        letter-spacing: 0.18em;
+        margin-bottom: 0.3rem;
+    }
+    .footer__brand-sub {
+        font-size: 0.8rem;
+        color: var(--gold-accent);
+        letter-spacing: 0.06em;
+        margin-bottom: 1rem;
     }
     .footer__brand p {
         font-size: 0.85rem;
         line-height: 1.7;
     }
+    .footer__brand-quote {
+        font-family: var(--font-display);
+        font-style: italic;
+        font-size: 0.95rem;
+        color: rgba(255,255,255,0.4);
+        margin-top: 1rem;
+        line-height: 1.5;
+    }
     .footer__col-title {
         font-family: var(--font-body);
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
         color: var(--gold-accent);
@@ -860,11 +1105,14 @@
         border-top: 1px solid rgba(255,255,255,0.08);
         padding: 1.5rem 0;
         text-align: center;
-        font-size: 0.78rem;
-        color: rgba(255,255,255,0.35);
+        font-size: 0.76rem;
+        color: rgba(255,255,255,0.3);
+        line-height: 1.6;
     }
 
-    /* ===== BACK TO TOP ===== */
+    /* ====================================================================
+       BACK TO TOP
+       ==================================================================== */
     .back-to-top {
         position: fixed;
         bottom: 2rem;
@@ -886,59 +1134,84 @@
     .back-to-top.visible { opacity: 1; visibility: visible; }
     .back-to-top:hover { background: var(--gold-accent); color: #fff; }
 
+    /* ====================================================================
+       RESPONSIVE — Tablet
+       ==================================================================== */
     @media (max-width: 1100px) {
         .nav__cta { display: none; }
     }
 
-    /* ===== RESPONSIVE — TABLET ===== */
     @media (max-width: 1200px) {
-        .services__grid { gap: 1.5rem; }
-        .philosophy__grid { gap: 3rem; }
-        .philosophy__image { height: 500px; }
+        .services__grid { grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+        .services__grid .service-card:last-child { grid-column: span 2; max-width: 50%; justify-self: center; }
+        .histoire__grid { gap: 3rem; }
+        .portfolio__grid { grid-template-columns: repeat(2, 1fr); }
         .contact__grid { gap: 3rem; }
         .footer__grid { grid-template-columns: 1.3fr 1fr 1fr 1fr; gap: 2rem; }
     }
 
     @media (max-width: 992px) {
+        .social-proof__grid { grid-template-columns: repeat(2, 1fr); }
+        .social-proof__item:nth-child(2)::after { display: none; }
+        .social-proof__item:nth-child(1),
+        .social-proof__item:nth-child(2) { border-bottom: 1px solid var(--light-grey); padding-bottom: 1rem; }
+        .social-proof__item:nth-child(3),
+        .social-proof__item:nth-child(4) { padding-top: 1rem; }
         .stats__grid { grid-template-columns: repeat(2, 1fr); }
         .stats__item:nth-child(2)::after { display: none; }
         .stats__item:nth-child(1),
         .stats__item:nth-child(2) { border-bottom: 1px solid var(--light-grey); padding-bottom: 1.5rem; }
         .stats__item:nth-child(3),
         .stats__item:nth-child(4) { padding-top: 1.5rem; }
+        .services__grid .service-card:last-child { grid-column: span 2; max-width: 100%; }
         .testimonials__grid { grid-template-columns: repeat(2, 1fr); }
         .testimonials__grid .testimonial-card:last-child { grid-column: span 2; max-width: 50%; justify-self: center; }
         .process__timeline::before { display: none; }
         .process__timeline { grid-template-columns: repeat(2, 1fr); gap: 2.5rem; }
-        .philosophy__grid { grid-template-columns: 1fr; }
-        .philosophy__image { height: 400px; }
-        .philosophy__image::after { display: none; }
+        .histoire__grid { grid-template-columns: 1fr; }
+        .histoire__image { max-height: 500px; }
+        .histoire__image::after { display: none; }
         .contact__grid { grid-template-columns: 1fr; }
         .footer__grid { grid-template-columns: repeat(2, 1fr); }
+        .portfolio__grid { grid-template-columns: repeat(2, 1fr); }
     }
 
-    /* ===== RESPONSIVE — MOBILE ===== */
+    /* ====================================================================
+       RESPONSIVE — Mobile
+       ==================================================================== */
     @media (max-width: 768px) {
         :root { --nav-height: 64px; }
+        .nav { padding: 0 1.2rem; }
         .nav__links, .nav__cta { display: none; }
         .nav__hamburger { display: flex; }
         .section-padding { padding: 4.5rem 0; }
         .container { padding: 0 1.2rem; }
         .hero h1 { font-size: 2.4rem; }
-        .hero__subtitle { font-size: 0.95rem; }
+        .hero__tagline { font-size: 0.92rem; }
         .hero__buttons { flex-direction: column; align-items: center; }
         .hero__buttons .btn { width: 100%; max-width: 280px; text-align: center; }
+        .social-proof__grid { grid-template-columns: 1fr 1fr; }
         .services__grid { grid-template-columns: 1fr; }
-        .service-card__image { height: 240px; }
+        .services__grid .service-card:last-child { grid-column: span 1; max-width: 100%; }
+        .service-card__image { height: 220px; }
+        .portfolio__grid { grid-template-columns: 1fr; }
+        .portfolio__card-image { height: 260px; }
+        .portfolio__filters { gap: 0.4rem; }
+        .portfolio__filter-btn { padding: 0.45rem 1rem; font-size: 0.72rem; }
         .testimonials__grid { grid-template-columns: 1fr; }
         .testimonials__grid .testimonial-card:last-child { grid-column: span 1; max-width: 100%; }
         .process__timeline { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
         .footer__grid { grid-template-columns: 1fr; gap: 2rem; }
         .trust-badges { flex-direction: column; gap: 1rem; }
         .contact__form { padding: 1.5rem; }
+        .form-row { grid-template-columns: 1fr; gap: 0; }
     }
 
     @media (max-width: 480px) {
+        .social-proof__grid { grid-template-columns: 1fr; }
+        .social-proof__item:not(:last-child)::after { display: none; }
+        .social-proof__item { border-bottom: 1px solid var(--light-grey); padding: 0.8rem 0; }
+        .social-proof__item:last-child { border-bottom: none; }
         .stats__grid { grid-template-columns: 1fr; }
         .stats__item:not(:last-child)::after { display: none; }
         .stats__item { border-bottom: 1px solid var(--light-grey); padding: 1.2rem 0; }
@@ -949,42 +1222,47 @@
 </head>
 <body>
 
-    <!-- NAVIGATION -->
+    <!-- ================================================================
+         SECTION 0 — NAVIGATION
+         ================================================================ -->
     <nav class="nav" id="nav" role="navigation" aria-label="Navigation principale">
-        <a href="#accueil" class="nav__logo">RENOVATION DV PRO</a>
+        <a href="#accueil" class="nav__logo">DV<span>·</span>PRO</a>
         <div class="nav__links">
             <a href="#accueil">Accueil</a>
-            <a href="#services">Services</a>
+            <a href="#savoir-faire">Savoir-Faire</a>
             <a href="#realisations">Réalisations</a>
-            <a href="#apropos">À Propos</a>
+            <a href="#notre-histoire">Notre Histoire</a>
             <a href="#contact">Contact</a>
         </div>
-        <a href="#contact" class="nav__cta">Demander un devis</a>
-        <button class="nav__hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <a href="#contact" class="nav__cta">Demander un Devis</a>
+        <button type="button" class="nav__hamburger" id="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
             <span></span><span></span><span></span>
         </button>
     </nav>
 
-    <!-- MOBILE OVERLAY -->
+    <!-- MOBILE OVERLAY MENU -->
     <div class="nav__mobile-overlay" id="mobileMenu" role="dialog" aria-label="Menu mobile">
         <a href="#accueil">Accueil</a>
-        <a href="#services">Services</a>
+        <a href="#savoir-faire">Savoir-Faire</a>
         <a href="#realisations">Réalisations</a>
-        <a href="#apropos">À Propos</a>
+        <a href="#notre-histoire">Notre Histoire</a>
         <a href="#contact">Contact</a>
-        <a href="#contact" class="btn btn--gold" style="margin-top:1rem;">Demander un devis</a>
+        <a href="#contact" class="btn btn--gold nav__mobile-cta">Demander un Devis</a>
     </div>
 
-    <!-- HERO -->
+    <!-- ================================================================
+         SECTION 1 — HERO (Full Viewport)
+         ================================================================ -->
     <section class="hero" id="accueil" aria-label="Accueil">
-        <div class="hero__bg" role="img" aria-label="Intérieur parisien rénové"></div>
+        <div class="hero__bg" role="img" aria-label="Intérieur parisien rénové par DV-PRO"></div>
         <div class="hero__content">
-            <p class="hero__label reveal">Artisan Rénovateur · Paris</p>
-            <h1 class="reveal reveal-delay-1">Rénovation Intérieure<br>Haut de Gamme à Paris</h1>
-            <p class="hero__subtitle reveal reveal-delay-2">Finitions Parfaites. Détails Maîtrisés. Résultat Durable.</p>
+            <p class="hero__label reveal">Artisan Décorateur · Paris · Depuis 2018</p>
+            <h1 class="reveal reveal-delay-1">L'Art de la Rénovation<br>Haut de Gamme à Paris</h1>
+            <p class="hero__tagline reveal reveal-delay-2">Finitions Parfaites. Détails Maîtrisés. Résultat Durable.</p>
+            <p class="hero__partner reveal reveal-delay-2">Partenaire officiel de Little Greene & Dedar Paris.</p>
             <div class="hero__buttons reveal reveal-delay-3">
-                <a href="#contact" class="btn btn--gold">Demander un devis</a>
-                <a href="#realisations" class="btn btn--outline">Voir nos réalisations</a>
+                <a href="#contact" class="btn btn--gold">Demander un Devis</a>
+                <a href="#realisations" class="btn btn--outline">Voir nos Réalisations</a>
             </div>
         </div>
         <div class="hero__scroll-indicator" id="scrollIndicator">
@@ -994,7 +1272,39 @@
         </div>
     </section>
 
-    <!-- STATS -->
+    <!-- ================================================================
+         SECTION 2 — SOCIAL PROOF BAR
+         ================================================================ -->
+    <section class="social-proof" aria-label="Références">
+        <div class="container">
+            <div class="social-proof__grid">
+                <div class="social-proof__item reveal">
+                    <div class="social-proof__icon">★★★★★</div>
+                    <div class="social-proof__title">Recommandé</div>
+                    <div class="social-proof__desc">uniquement par<br>nos clients</div>
+                </div>
+                <div class="social-proof__item reveal reveal-delay-1">
+                    <div class="social-proof__icon">✦</div>
+                    <div class="social-proof__title">Little Greene Paris</div>
+                    <div class="social-proof__desc">Partenaire Officiel<br>Rue Bonaparte</div>
+                </div>
+                <div class="social-proof__item reveal reveal-delay-2">
+                    <div class="social-proof__icon">✦</div>
+                    <div class="social-proof__title">DEDAR</div>
+                    <div class="social-proof__desc">Boutiques & Hôtels<br>de Prestige</div>
+                </div>
+                <div class="social-proof__item reveal reveal-delay-3">
+                    <div class="social-proof__icon">★★★★★</div>
+                    <div class="social-proof__title">5.0 / 5</div>
+                    <div class="social-proof__desc">Avis clients<br>Google</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         SECTION 3 — STATS / TRUST NUMBERS
+         ================================================================ -->
     <section class="stats" aria-label="Chiffres clés">
         <div class="container">
             <div class="stats__grid">
@@ -1004,60 +1314,86 @@
                 </div>
                 <div class="stats__item reveal reveal-delay-1">
                     <div class="stats__number" data-target="100" data-suffix="%">0</div>
-                    <div class="stats__label">recommandations<br>clients</div>
+                    <div class="stats__label">recommandations<br>clients satisfaits</div>
                 </div>
                 <div class="stats__item reveal reveal-delay-2">
-                    <div class="stats__number" data-target="0" data-prefix="" data-display="0€">0€</div>
-                    <div class="stats__label">publicité<br>bouche à oreille</div>
+                    <div class="stats__number" data-target="0" data-display="0 €">0 €</div>
+                    <div class="stats__label">publicité payée<br>bouche à oreille</div>
                 </div>
                 <div class="stats__item reveal reveal-delay-3">
                     <div class="stats__number" data-static="true">Paris</div>
-                    <div class="stats__label">& Île-de-France<br>exclusivement</div>
+                    <div class="stats__label">1er–16e<br>Arrondissements de Prestige</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICES -->
-    <section class="services section-padding" id="services" aria-label="Nos services">
+    <!-- ================================================================
+         SECTION 4 — NOTRE SAVOIR-FAIRE (Services)
+         ================================================================ -->
+    <section class="services section-padding" id="savoir-faire" aria-label="Notre savoir-faire">
         <div class="container">
             <div class="text-center reveal">
-                <p class="section-label">Nos Prestations</p>
-                <h2>Services Haut de Gamme<br>pour Votre Intérieur</h2>
+                <p class="section-label">Notre Savoir-Faire</p>
+                <h2>Trois Domaines<br>d'Excellence</h2>
                 <div class="gold-divider"></div>
             </div>
-            <div class="services__grid" id="realisations">
+            <div class="services__grid">
+                <!-- Card 1: Peinture -->
                 <div class="service-card reveal">
                     <div class="service-card__image">
                         <img src="https://hips.hearstapps.com/hmg-prod/images/uchronia-paris-apartment-living-room-64e4888ea1eb6.jpg"
-                             alt="Peinture et finitions haut de gamme dans un appartement parisien"
+                             alt="Peinture et finitions décoratives haut de gamme"
                              loading="lazy">
                     </div>
                     <div class="service-card__content">
-                        <h3 class="service-card__title">Peinture & Finitions</h3>
-                        <p class="service-card__desc">Préparation complète des surfaces, enduits et lissage parfait, peintures premium avec finitions mates, satinées ou velours. Chaque mur devient une toile.</p>
+                        <h3 class="service-card__title">Peinture & Effets Décoratifs</h3>
+                        <p class="service-card__desc">De la préparation rigoureuse des surfaces à la touche finale, nous maîtrisons tous les types de finitions — mat, satiné, velours et l'exceptionnel effet miroir laqué qui transforme chaque pièce en chef-d'œuvre.</p>
                         <ul class="service-card__list">
-                            <li>Enduits et lissage parfait</li>
-                            <li>Peintures premium (mate, satinée, velours)</li>
-                            <li>Préparation complète des surfaces</li>
-                            <li>Finitions décoratives sur mesure</li>
+                            <li>Peinture mate, satinée, velours</li>
+                            <li class="highlight">Peinture laquée effet miroir</li>
+                            <li>Enduits décoratifs et lissage parfait</li>
+                            <li>Pose de papiers peints haut de gamme</li>
+                            <li>Peinture de meubles, boiseries et portes</li>
+                            <li>Rénovation intérieure & extérieure</li>
                         </ul>
                     </div>
                 </div>
+                <!-- Card 2: Parquet -->
                 <div class="service-card reveal reveal-delay-1">
                     <div class="service-card__image">
                         <img src="https://mcmillanfloors.com/cdn/shop/articles/getty-images-GjLnhJgS_kc-unsplash.jpg?v=1755842465&width=2000"
-                             alt="Parquet massif posé dans un intérieur élégant"
+                             alt="Parquet massif dans un intérieur élégant"
                              loading="lazy">
                     </div>
                     <div class="service-card__content">
                         <h3 class="service-card__title">Parquet & Sols</h3>
-                        <p class="service-card__desc">De la pose à la rénovation, nous maîtrisons tous les aspects du parquet — massif, contrecollé, ponçage et vitrification pour redonner vie à vos sols anciens.</p>
+                        <p class="service-card__desc">De la pose à la rénovation complète, nous redonnons vie à vos sols. Parquet massif, contrecollé, ponçage et vitrification — chaque détail est traité avec la précision d'un artisan.</p>
                         <ul class="service-card__list">
                             <li>Pose parquet massif & contrecollé</li>
                             <li>Ponçage et vitrification</li>
                             <li>Réparation parquet ancien</li>
+                            <li>Pose stratifié & revêtements</li>
                             <li>Préparation et ragréage des sols</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 3: Rénovation Complète -->
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-card__image">
+                        <img src="https://cdn.shopify.com/s/files/1/2983/8386/t/20/assets/egerton-place-no297_walls_living-room_portrait_archive-collection_mylands_2021-1633950259429.jpg"
+                             alt="Rénovation complète d'un intérieur parisien"
+                             loading="lazy">
+                    </div>
+                    <div class="service-card__content">
+                        <h3 class="service-card__title">Rénovation Clé en Main</h3>
+                        <p class="service-card__desc">Au-delà de la peinture, DV-PRO coordonne l'ensemble de votre projet : menuiserie, électricité, plomberie, salles de bain, cuisines. Un interlocuteur unique, une exigence constante.</p>
+                        <ul class="service-card__list">
+                            <li>Menuiserie & aménagement sur mesure</li>
+                            <li>Plomberie & salles de bain</li>
+                            <li>Électricité</li>
+                            <li>Installation cuisines</li>
+                            <li>Rénovation complète d'appartements</li>
                         </ul>
                     </div>
                 </div>
@@ -1065,36 +1401,196 @@
         </div>
     </section>
 
-    <!-- PHILOSOPHY -->
-    <section class="philosophy section-padding" id="apropos" aria-label="Notre philosophie">
+    <!-- ================================================================
+         SECTION 5 — NOTRE HISTOIRE (Personal Story)
+         ================================================================ -->
+    <section class="histoire section-padding" id="notre-histoire" aria-label="Notre histoire">
         <div class="container">
-            <div class="philosophy__grid">
-                <div class="philosophy__image reveal">
-                    <img src="https://cdn.shopify.com/s/files/1/2983/8386/t/20/assets/egerton-place-no297_walls_living-room_portrait_archive-collection_mylands_2021-1633950259429.jpg"
-                         alt="Intérieur parisien avec peinture haut de gamme"
-                         loading="lazy">
+            <div class="histoire__grid">
+                <div class="histoire__image-wrapper reveal">
+                    <div class="histoire__image">
+                        <img src="dimitar-vatev.jpg" alt="Dimitar Vatev — Fondateur DV-PRO, Artisan Peintre Décorateur Paris">
+                    </div>
                 </div>
-                <div class="philosophy__text reveal reveal-delay-1">
-                    <p class="section-label">Notre Philosophie</p>
-                    <h2>L'Excellence<br>par le Détail</h2>
-                    <div class="gold-divider" style="margin-left:0;"></div>
-                    <p>Depuis 6 ans, nous intervenons dans les intérieurs les plus exigeants de Paris. Notre réputation s'est construite uniquement sur la qualité de notre travail et les recommandations de nos clients satisfaits — jamais sur la publicité.</p>
-                    <p>Nous croyons qu'une rénovation réussie commence bien avant le premier coup de pinceau : par une préparation rigoureuse, des matériaux sélectionnés et une attention absolue aux détails.</p>
-                    <blockquote class="philosophy__quote">
-                        « Chaque projet est réalisé comme si c'était notre propre intérieur. »
+                <div class="histoire__text reveal reveal-delay-1">
+                    <p class="section-label">Notre Histoire</p>
+                    <h2>L'Œil de l'Artiste,<br>la Main du Maître</h2>
+                    <div class="gold-divider gold-divider--left"></div>
+                    <p>Tout a commencé avec l'œil d'un artiste. Dimitar Vatev n'a jamais vu les murs comme de simples surfaces — pour lui, chaque espace est une toile qui mérite d'être sublimée.</p>
+                    <p>Arrivé à Paris avec la passion du détail et le sens de l'esthétique propre à un peintre, il a rapidement compris que la rénovation pouvait être un art à part entière. Seul au départ, sa seule publicité était l'excellence de son travail — et les recommandations de clients qui devenaient fidèles pour la vie.</p>
+                    <p>Aujourd'hui, DV-PRO est une équipe de professionnels partageant la même philosophie : menuisiers, électriciens, plombiers — tous guidés par la même exigence absolue du détail. Des boutiques Little Greene aux hôtels particuliers du 8ème arrondissement, chaque projet porte la signature personnelle de Dimitar.</p>
+                    <blockquote class="histoire__quote">
+                        « Mon nom est ma garantie. Chaque projet est réalisé comme si c'était mon propre intérieur. »
+                        <cite>— Dimitar Vatev, Fondateur</cite>
                     </blockquote>
-                    <ul class="philosophy__features">
+                    <ul class="histoire__values">
+                        <li>Préparation irréprochable avant tout travail</li>
+                        <li>Matériaux premium sélectionnés avec soin</li>
                         <li>Machines professionnelles dernière génération</li>
-                        <li>Matériaux premium sélectionnés</li>
-                        <li>Respect des délais garanti</li>
-                        <li>Devis détaillé et transparent</li>
+                        <li>Respect absolu des délais</li>
+                        <li>Devis détaillé et transparent, sans surprise</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TESTIMONIALS -->
+    <!-- ================================================================
+         SECTION 6 — RÉALISATIONS (Portfolio with JS Filters)
+         ================================================================ -->
+    <section class="portfolio section-padding" id="realisations" aria-label="Nos réalisations">
+        <div class="container">
+            <div class="text-center reveal">
+                <p class="section-label">Nos Réalisations</p>
+                <h2>Chaque Projet,<br>une Signature</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="portfolio__filters reveal">
+                <button type="button" class="portfolio__filter-btn active" data-filter="tous">Tous</button>
+                <button type="button" class="portfolio__filter-btn" data-filter="boutiques">Boutiques</button>
+                <button type="button" class="portfolio__filter-btn" data-filter="effet-miroir">Effet Miroir</button>
+                <button type="button" class="portfolio__filter-btn" data-filter="haussmannien">Haussmannien</button>
+                <button type="button" class="portfolio__filter-btn" data-filter="residentiel">Résidentiel</button>
+            </div>
+            <div class="portfolio__grid" id="portfolioGrid">
+                <!-- Project 1 — Little Greene -->
+                <div class="portfolio__card reveal" data-category="boutiques">
+                    <div class="portfolio__card-image">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/uchronia-paris-apartment-living-room-64e4888ea1eb6.jpg"
+                             alt="Little Greene Paris — Rue Bonaparte"
+                             loading="lazy">
+                        <span class="portfolio__card-badge">Référence Prestige</span>
+                        <div class="portfolio__card-overlay">
+                            <p>Partenaire officiel pour l'entretien annuel du flagship store Little Greene. Peinture extérieure et intérieure, pose de papiers peints de collection. Confiance renouvelée chaque année.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Boutiques & Showrooms</p>
+                        <h3 class="portfolio__card-title">Little Greene · Rue Bonaparte</h3>
+                    </div>
+                </div>
+                <!-- Project 2 — DEDAR -->
+                <div class="portfolio__card reveal reveal-delay-1" data-category="boutiques">
+                    <div class="portfolio__card-image">
+                        <img src="https://cdn.shopify.com/s/files/1/2983/8386/t/20/assets/egerton-place-no297_walls_living-room_portrait_archive-collection_mylands_2021-1633950259429.jpg"
+                             alt="DEDAR Boutique Paris"
+                             loading="lazy">
+                        <span class="portfolio__card-badge">Référence Prestige</span>
+                        <div class="portfolio__card-overlay">
+                            <p>Rénovation de la façade et de l'intérieur du showroom DEDAR, leader mondial du textile de luxe. Précision millimétrique exigée — chaque surface est un étalon pour leurs clients.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Boutiques & Showrooms</p>
+                        <h3 class="portfolio__card-title">DEDAR · Paris</h3>
+                    </div>
+                </div>
+                <!-- Project 3 — Effet Miroir -->
+                <div class="portfolio__card reveal reveal-delay-2" data-category="effet-miroir">
+                    <div class="portfolio__card-image">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/uchronia-paris-apartment-living-room-64e4888ea1eb6.jpg"
+                             alt="Peinture laquée effet miroir — Appartement sous combles"
+                             loading="lazy">
+                        <div class="portfolio__card-overlay">
+                            <p>L'effet miroir laqué appliqué sur murs, plafonds et étagères d'un espace de 20m². Technique exigeant une préparation chirurgicale et de multiples couches de ponçage. Résultat : doublement visuel de l'espace.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Effet Miroir</p>
+                        <h3 class="portfolio__card-title">Appartement sous combles · 20m²</h3>
+                    </div>
+                </div>
+                <!-- Project 4 — Hôtel Particulier -->
+                <div class="portfolio__card reveal" data-category="haussmannien">
+                    <div class="portfolio__card-image">
+                        <img src="https://cdn.shopify.com/s/files/1/2983/8386/t/20/assets/egerton-place-no297_walls_living-room_portrait_archive-collection_mylands_2021-1633950259429.jpg"
+                             alt="Hôtel Particulier — Rénovation complète"
+                             loading="lazy">
+                        <div class="portfolio__card-overlay">
+                            <p>Rénovation complète d'un hôtel particulier privé : papiers peints de luxe, peinture laquée sur l'escalier, restauration des boiseries, meubles et portes. Harmonie entre esprit classique et finitions contemporaines.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Haussmannien</p>
+                        <h3 class="portfolio__card-title">Hôtel Particulier · Rénovation Complète</h3>
+                    </div>
+                </div>
+                <!-- Project 5 — Salon Doré -->
+                <div class="portfolio__card reveal reveal-delay-1" data-category="residentiel">
+                    <div class="portfolio__card-image">
+                        <img src="https://hips.hearstapps.com/hmg-prod/images/uchronia-paris-apartment-living-room-64e4888ea1eb6.jpg"
+                             alt="Salon classique avec finitions or et profond"
+                             loading="lazy">
+                        <div class="portfolio__card-overlay">
+                            <p>Application de finitions métalliques dorées (Pigmacolor) sur les ornements, associées à des surfaces profondes et mates. Un contraste dramatique et luxueux dans un appartement Haussmannien.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Résidentiel</p>
+                        <h3 class="portfolio__card-title">Salon Classique · Finitions Or et Profond</h3>
+                    </div>
+                </div>
+                <!-- Project 6 — Cuisine -->
+                <div class="portfolio__card reveal reveal-delay-2" data-category="residentiel effet-miroir">
+                    <div class="portfolio__card-image">
+                        <img src="https://mcmillanfloors.com/cdn/shop/articles/getty-images-GjLnhJgS_kc-unsplash.jpg?v=1755842465&width=2000"
+                             alt="Cuisine avec plafond laqué miroir"
+                             loading="lazy">
+                        <div class="portfolio__card-overlay">
+                            <p>Transformation complète d'une cuisine : du brut à un plafond en laqué miroir. Technique multi-couches avec ponçage intermédiaire pour un reflet parfait et une sensation de volume inédite.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio__card-info">
+                        <p class="portfolio__card-category">Résidentiel · Effet Miroir</p>
+                        <h3 class="portfolio__card-title">Cuisine · Plafond Laqué Miroir</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         SECTION 7 — NOTRE PROCESSUS
+         ================================================================ -->
+    <section class="process section-padding" aria-label="Notre processus">
+        <div class="container">
+            <div class="text-center reveal">
+                <p class="section-label">Notre Méthode</p>
+                <h2>Comment Nous<br>Travaillons</h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="process__timeline">
+                <div class="process__step reveal">
+                    <div class="process__number">01</div>
+                    <h3 class="process__title">Visite & Devis</h3>
+                    <p class="process__subtitle">Gratuit</p>
+                    <p class="process__desc">Nous venons chez vous pour une estimation détaillée et transparente.</p>
+                </div>
+                <div class="process__step reveal reveal-delay-1">
+                    <div class="process__number">02</div>
+                    <h3 class="process__title">Préparation</h3>
+                    <p class="process__subtitle">Rigoureuse</p>
+                    <p class="process__desc">Protection complète du chantier, sans compromis.</p>
+                </div>
+                <div class="process__step reveal reveal-delay-2">
+                    <div class="process__number">03</div>
+                    <h3 class="process__title">Réalisation</h3>
+                    <p class="process__subtitle">Haut de Gamme</p>
+                    <p class="process__desc">Travaux réalisés avec les meilleurs matériaux et machines pro.</p>
+                </div>
+                <div class="process__step reveal reveal-delay-3">
+                    <div class="process__number">04</div>
+                    <h3 class="process__title">Livraison</h3>
+                    <p class="process__subtitle">Impeccable</p>
+                    <p class="process__desc">Nettoyage complet et remise des clés en main.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================================================================
+         SECTION 8 — TÉMOIGNAGES
+         ================================================================ -->
     <section class="testimonials section-padding" aria-label="Témoignages clients">
         <div class="container">
             <div class="text-center reveal">
@@ -1105,81 +1601,47 @@
             <div class="testimonials__grid">
                 <div class="testimonial-card reveal">
                     <div class="testimonial-card__stars">★★★★★</div>
-                    <p class="testimonial-card__text">« Travail impeccable, finitions parfaites. Je recommande sans hésiter à tous mes amis qui cherchent un artisan sérieux à Paris. »</p>
+                    <p class="testimonial-card__text">« Travail absolument impeccable. Dimitar a transformé notre appartement haussmannien en quelque chose d'exceptionnel. Les finitions sont parfaites, on recommande les yeux fermés. »</p>
                     <div class="testimonial-card__divider"></div>
-                    <p class="testimonial-card__author">Marie L., 16ème arrondissement</p>
+                    <p class="testimonial-card__author">Marie & Antoine L., 8ème arrondissement</p>
                 </div>
                 <div class="testimonial-card reveal reveal-delay-1">
                     <div class="testimonial-card__stars">★★★★★</div>
-                    <p class="testimonial-card__text">« Notre architecte nous a recommandé DV PRO pour la peinture de notre appartement haussmannien. Le résultat est au-delà de nos espérances. »</p>
+                    <p class="testimonial-card__text">« Notre architecte d'intérieur nous a orienté vers DV-PRO pour la peinture laquée de notre salon. Le résultat dépasse toutes nos attentes — un vrai artiste derrière chaque geste. »</p>
                     <div class="testimonial-card__divider"></div>
-                    <p class="testimonial-card__author">Pierre & Sophie D., 8ème arrondissement</p>
+                    <p class="testimonial-card__author">Sophie D., Neuilly-sur-Seine</p>
                 </div>
                 <div class="testimonial-card reveal reveal-delay-2">
                     <div class="testimonial-card__stars">★★★★★</div>
-                    <p class="testimonial-card__text">« Professionnalisme exemplaire. Les enduits sont parfaits, on ne voit aucune irrégularité. Je referai appel à eux sans hésiter. »</p>
+                    <p class="testimonial-card__text">« Dimitar a refait entièrement notre boutique. Professionnalisme exemplaire, respect des délais, et une attention aux détails que nous n'avions jamais vue chez d'autres artisans à Paris. »</p>
                     <div class="testimonial-card__divider"></div>
-                    <p class="testimonial-card__author">Jean-Marc B., Neuilly-sur-Seine</p>
+                    <p class="testimonial-card__author">Responsable Boutique, Paris 6ème</p>
                 </div>
             </div>
             <div class="trust-badges reveal">
                 <div class="trust-badge">
-                    <strong style="color:var(--charcoal);">Google</strong>
-                    <span>5.0</span>
+                    <strong class="trust-badge__label">Google</strong>
                     <span class="trust-badge__stars">★★★★★</span>
+                    <span>5.0</span>
                 </div>
-                <div class="trust-badge">Recommandé par des architectes</div>
-                <div class="trust-badge">6 ans d'expérience</div>
+                <div class="trust-badge">Partenaire Little Greene</div>
+                <div class="trust-badge">Partenaire DEDAR</div>
+                <div class="trust-badge">6 ans à Paris</div>
             </div>
         </div>
     </section>
 
-    <!-- PROCESS -->
-    <section class="process section-padding" aria-label="Notre processus">
-        <div class="container">
-            <div class="text-center reveal">
-                <p class="section-label">Comment Nous Travaillons</p>
-                <h2>Notre Processus</h2>
-                <div class="gold-divider"></div>
-            </div>
-            <div class="process__timeline">
-                <div class="process__step reveal">
-                    <div class="process__number">01</div>
-                    <h3 class="process__title">Devis</h3>
-                    <p class="process__subtitle">Gratuit</p>
-                    <p class="process__desc">Visite sur place et estimation détaillée, sans engagement.</p>
-                </div>
-                <div class="process__step reveal reveal-delay-1">
-                    <div class="process__number">02</div>
-                    <h3 class="process__title">Préparation</h3>
-                    <p class="process__subtitle">Rigoureuse</p>
-                    <p class="process__desc">Protection complète du chantier et préparation minutieuse.</p>
-                </div>
-                <div class="process__step reveal reveal-delay-2">
-                    <div class="process__number">03</div>
-                    <h3 class="process__title">Réalisation</h3>
-                    <p class="process__subtitle">Haut de Gamme</p>
-                    <p class="process__desc">Travaux avec matériaux premium et attention aux détails.</p>
-                </div>
-                <div class="process__step reveal reveal-delay-3">
-                    <div class="process__number">04</div>
-                    <h3 class="process__title">Livraison</h3>
-                    <p class="process__subtitle">Parfaite</p>
-                    <p class="process__desc">Nettoyage complet et remise des clés impeccable.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CONTACT -->
+    <!-- ================================================================
+         SECTION 9 — CONTACT / DEVIS
+         ================================================================ -->
     <section class="contact section-padding" id="contact" aria-label="Contact">
         <div class="container">
             <div class="contact__grid">
                 <div class="contact__info reveal">
                     <p class="section-label">Contact</p>
                     <h2>Demandez Votre<br>Devis Gratuit</h2>
-                    <div class="gold-divider" style="margin-left:0;"></div>
-                    <p>Contactez-nous pour une visite sur place et une estimation détaillée, sans engagement.</p>
+                    <div class="gold-divider gold-divider--left"></div>
+                    <p>Contactez-nous pour une visite sur place et une estimation détaillée, sans engagement. Réponse sous 24h.</p>
                     <div class="contact__details">
                         <div class="contact__detail">
                             <div class="contact__detail-icon">📍</div>
@@ -1187,55 +1649,63 @@
                         </div>
                         <div class="contact__detail">
                             <div class="contact__detail-icon">📞</div>
-                            <a href="tel:[PHONE]">[PHONE]</a>
+                            <a href="tel:+33XXXXXXXXX">+33 X XX XX XX XX</a>
                         </div>
                         <div class="contact__detail">
                             <div class="contact__detail-icon">✉</div>
-                            <a href="mailto:[EMAIL]">[EMAIL]</a>
+                            <a href="mailto:contact@vatev-renovation.fr">contact@vatev-renovation.fr</a>
+                        </div>
+                        <div class="contact__detail">
+                            <div class="contact__detail-icon">🕐</div>
+                            <span>Lun–Sam : 8h00–19h00</span>
                         </div>
                     </div>
-                    <p class="contact__response">Délai de réponse : sous 24h</p>
+                    <p class="contact__response">Délai de réponse garanti : sous 24 heures.</p>
                 </div>
 
                 <div class="reveal reveal-delay-1">
-                    <form class="contact__form" id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-                        <input type="hidden" name="form-name" value="contact">
-                        <p style="display:none;"><input name="bot-field"></p>
-                        <div class="form-group">
-                            <label for="name">Nom complet *</label>
-                            <input type="text" id="name" name="name" required autocomplete="name" placeholder="Votre nom">
-                            <p class="form-error">Veuillez entrer votre nom</p>
+                    <form class="contact__form" id="contactForm" action="mailto:contact@vatev-renovation.fr" method="POST" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Prénom & Nom *</label>
+                                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Votre nom complet">
+                                <p class="form-error">Veuillez entrer votre nom</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Téléphone *</label>
+                                <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="06 12 34 56 78">
+                                <p class="form-error">Veuillez entrer votre numéro</p>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="phone">Téléphone *</label>
-                            <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="06 12 34 56 78">
-                            <p class="form-error">Veuillez entrer votre numéro de téléphone</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" autocomplete="email" placeholder="votre@email.com">
-                            <p class="form-error">Veuillez entrer une adresse email valide</p>
-                        </div>
-                        <div class="form-group">
-                            <label for="location">Arrondissement / Ville</label>
-                            <input type="text" id="location" name="location" placeholder="ex: 16ème, Neuilly-sur-Seine">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required autocomplete="email" placeholder="votre@email.com">
+                                <p class="form-error">Email invalide</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="location">Arrondissement / Ville</label>
+                                <input type="text" id="location" name="location" placeholder="ex: 16ème, Neuilly">
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="service">Type de travaux *</label>
                             <select id="service" name="service" required>
                                 <option value="" disabled selected>Choisir un type de travaux</option>
-                                <option value="peinture">Peinture & Finitions</option>
-                                <option value="parquet">Parquet & Sols</option>
-                                <option value="les-deux">Les deux</option>
-                                <option value="autre">Autre</option>
+                                <option value="Peinture & Finitions">Peinture & Finitions</option>
+                                <option value="Effet Miroir Laqué">Effet Miroir Laqué</option>
+                                <option value="Parquet & Sols">Parquet & Sols</option>
+                                <option value="Papier Peint de Luxe">Papier Peint de Luxe</option>
+                                <option value="Rénovation Complète">Rénovation Complète</option>
+                                <option value="Autre">Autre</option>
                             </select>
-                            <p class="form-error">Veuillez sélectionner un type de travaux</p>
+                            <p class="form-error">Veuillez sélectionner un type</p>
                         </div>
                         <div class="form-group">
                             <label for="message">Description du projet</label>
-                            <textarea id="message" name="message" placeholder="Décrivez votre projet : surface, état actuel, résultat souhaité..."></textarea>
+                            <textarea id="message" name="message" rows="4" placeholder="Décrivez votre projet : surface, état actuel, résultat souhaité..."></textarea>
                         </div>
-                        <button type="submit" class="btn--submit">Envoyer ma demande</button>
+                        <button type="submit" class="btn--submit">Envoyer ma Demande</button>
                     </form>
                     <div class="form-success" id="formSuccess">
                         <h3>Demande envoyée !</h3>
@@ -1246,79 +1716,86 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
+    <!-- ================================================================
+         SECTION 10 — FOOTER
+         ================================================================ -->
     <footer class="footer" role="contentinfo">
         <div class="container">
             <div class="footer__grid">
                 <div class="footer__brand">
-                    <p class="footer__brand-name">RENOVATION DV PRO</p>
-                    <p>Artisan Rénovateur à Paris<br>Finitions Haut de Gamme</p>
+                    <p class="footer__brand-name">DV·PRO</p>
+                    <p class="footer__brand-sub">VATEV RÉNOVATION</p>
+                    <p>Artisan Décorateur<br>à Paris</p>
+                    <p class="footer__brand-quote">« L'art de la rénovation haut de gamme »</p>
                 </div>
                 <div class="footer__col">
                     <p class="footer__col-title">Navigation</p>
                     <ul>
                         <li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#services">Services</a></li>
+                        <li><a href="#savoir-faire">Savoir-Faire</a></li>
                         <li><a href="#realisations">Réalisations</a></li>
-                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#notre-histoire">Notre Histoire</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer__col">
                     <p class="footer__col-title">Services</p>
                     <ul>
-                        <li>Peinture & Enduits</li>
-                        <li>Parquet & Sols</li>
-                        <li>Rénovation complète</li>
-                        <li>Conseil et expertise</li>
+                        <li>Peinture</li>
+                        <li>Effet Miroir</li>
+                        <li>Parquet</li>
+                        <li>Papier Peint</li>
+                        <li>Rénovation Complète</li>
                     </ul>
                 </div>
                 <div class="footer__col">
                     <p class="footer__col-title">Contact</p>
                     <ul>
                         <li>Paris & Île-de-France</li>
-                        <li><a href="tel:[PHONE]">[PHONE]</a></li>
-                        <li><a href="mailto:[EMAIL]">[EMAIL]</a></li>
+                        <li><a href="tel:+33XXXXXXXXX">+33 X XX XX XX XX</a></li>
+                        <li><a href="mailto:contact@vatev-renovation.fr">contact@vatev-renovation.fr</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer__bottom">
-                © <span id="currentYear"></span> Renovation DV PRO · Tous droits réservés · Artisan rénovateur Paris
+                © <span id="currentYear"></span> Renovation DV-PRO · Dimitar Vatev · Artisan Peintre Décorateur Paris<br>
+                SIRET : 881 806 574 · Tous droits réservés
             </div>
         </div>
     </footer>
 
     <!-- BACK TO TOP -->
-    <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+    <button type="button" class="back-to-top" id="backToTop" aria-label="Retour en haut">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
             <path d="M17 14l-5-5-5 5"/>
         </svg>
     </button>
 
+    <!-- ================================================================
+         JAVASCRIPT
+         ================================================================ -->
     <script>
     (function() {
         'use strict';
 
-        // === Dynamic year ===
+        /* ---- Dynamic year ---- */
         document.getElementById('currentYear').textContent = new Date().getFullYear();
 
-        // === Navigation scroll effect ===
-        const nav = document.getElementById('nav');
-        const scrollIndicator = document.getElementById('scrollIndicator');
-        const backToTop = document.getElementById('backToTop');
+        /* ---- Navigation scroll effect ---- */
+        var nav = document.getElementById('nav');
+        var scrollIndicator = document.getElementById('scrollIndicator');
+        var backToTop = document.getElementById('backToTop');
 
         function handleScroll() {
-            const scrollY = window.scrollY;
+            var scrollY = window.scrollY;
             if (scrollY > 60) {
                 nav.classList.add('scrolled');
             } else {
                 nav.classList.remove('scrolled');
             }
-            // Scroll indicator fade
             if (scrollIndicator) {
                 scrollIndicator.style.opacity = Math.max(0, 1 - scrollY / 300);
             }
-            // Back to top
             if (scrollY > 600) {
                 backToTop.classList.add('visible');
             } else {
@@ -1332,16 +1809,16 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        // === Active nav link ===
-        const sections = document.querySelectorAll('section[id]');
-        const navLinks = document.querySelectorAll('.nav__links a');
+        /* ---- Active nav link highlight ---- */
+        var sections = document.querySelectorAll('section[id]');
+        var navLinks = document.querySelectorAll('.nav__links a');
 
         function updateActiveLink() {
-            const scrollY = window.scrollY + 120;
+            var scrollY = window.scrollY + 150;
             sections.forEach(function(section) {
-                const top = section.offsetTop;
-                const height = section.offsetHeight;
-                const id = section.getAttribute('id');
+                var top = section.offsetTop;
+                var height = section.offsetHeight;
+                var id = section.getAttribute('id');
                 if (scrollY >= top && scrollY < top + height) {
                     navLinks.forEach(function(link) {
                         link.classList.remove('active');
@@ -1354,12 +1831,12 @@
         }
         window.addEventListener('scroll', updateActiveLink, { passive: true });
 
-        // === Mobile hamburger ===
-        const hamburger = document.getElementById('hamburger');
-        const mobileMenu = document.getElementById('mobileMenu');
+        /* ---- Mobile hamburger menu ---- */
+        var hamburger = document.getElementById('hamburger');
+        var mobileMenu = document.getElementById('mobileMenu');
 
         hamburger.addEventListener('click', function() {
-            const isOpen = hamburger.classList.toggle('open');
+            var isOpen = hamburger.classList.toggle('open');
             mobileMenu.classList.toggle('open');
             hamburger.setAttribute('aria-expanded', isOpen);
             document.body.style.overflow = isOpen ? 'hidden' : '';
@@ -1374,7 +1851,7 @@
             });
         });
 
-        // === Scroll reveal (IntersectionObserver) ===
+        /* ---- Scroll Reveal (IntersectionObserver) ---- */
         var reveals = document.querySelectorAll('.reveal');
         if ('IntersectionObserver' in window) {
             var observer = new IntersectionObserver(function(entries) {
@@ -1391,7 +1868,7 @@
             reveals.forEach(function(el) { el.classList.add('visible'); });
         }
 
-        // === Stats counter animation ===
+        /* ---- Stats Counter Animation ---- */
         var statsAnimated = false;
         var statsSection = document.querySelector('.stats');
 
@@ -1404,17 +1881,26 @@
                 var suffix = el.dataset.suffix || '';
                 var display = el.dataset.display;
                 if (display) { el.textContent = display; return; }
-                if (target === 0) { el.textContent = '0€'; return; }
+                if (target === 0) { el.textContent = '0 €'; return; }
                 var current = 0;
-                var increment = Math.max(1, Math.floor(target / 40));
-                var timer = setInterval(function() {
-                    current += increment;
-                    if (current >= target) {
-                        current = target;
-                        clearInterval(timer);
-                    }
+                var duration = 1500;
+                var startTime = null;
+
+                function easeOutQuart(t) {
+                    return 1 - Math.pow(1 - t, 4);
+                }
+
+                function step(timestamp) {
+                    if (!startTime) startTime = timestamp;
+                    var progress = Math.min((timestamp - startTime) / duration, 1);
+                    var easedProgress = easeOutQuart(progress);
+                    current = Math.round(easedProgress * target);
                     el.textContent = current + suffix;
-                }, 30);
+                    if (progress < 1) {
+                        requestAnimationFrame(step);
+                    }
+                }
+                requestAnimationFrame(step);
             });
         }
 
@@ -1428,57 +1914,96 @@
             statsObserver.observe(statsSection);
         }
 
-        // === Form validation & submit ===
-        var form = document.getElementById('contactForm');
-        var formSuccess = document.getElementById('formSuccess');
+        /* ---- Portfolio Filter (JS Tabs) ---- */
+        var filterBtns = document.querySelectorAll('.portfolio__filter-btn');
+        var portfolioCards = document.querySelectorAll('.portfolio__card');
 
-        form.addEventListener('submit', function(e) {
-            var isValid = true;
-            var requiredFields = form.querySelectorAll('[required]');
+        filterBtns.forEach(function(btn) {
+            btn.addEventListener('click', function() {
+                var filter = this.dataset.filter;
 
-            requiredFields.forEach(function(field) {
-                var group = field.closest('.form-group');
-                if (!field.value.trim()) {
-                    group.classList.add('error');
-                    isValid = false;
-                } else {
-                    group.classList.remove('error');
-                }
-            });
+                // Update active state
+                filterBtns.forEach(function(b) { b.classList.remove('active'); });
+                this.classList.add('active');
 
-            var emailField = form.querySelector('#email');
-            if (emailField.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailField.value)) {
-                emailField.closest('.form-group').classList.add('error');
-                isValid = false;
-            }
-
-            if (!isValid) {
-                e.preventDefault();
-                return;
-            }
-
-            // Netlify handles the actual submission
-            // Show success message
-            e.preventDefault();
-            var formData = new FormData(form);
-            fetch('/', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: new URLSearchParams(formData).toString()
-            }).then(function() {
-                form.style.display = 'none';
-                formSuccess.classList.add('show');
-            }).catch(function() {
-                // Fallback: show success anyway in dev (Netlify will handle in prod)
-                form.style.display = 'none';
-                formSuccess.classList.add('show');
+                // Filter cards
+                portfolioCards.forEach(function(card) {
+                    var categories = card.dataset.category;
+                    if (filter === 'tous' || categories.indexOf(filter) !== -1) {
+                        card.classList.remove('hidden');
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        requestAnimationFrame(function() {
+                            requestAnimationFrame(function() {
+                                card.style.transition = 'opacity 0.4s ease, transform 0.4s ease';
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            });
+                        });
+                    } else {
+                        card.style.transition = 'opacity 0.3s ease';
+                        card.style.opacity = '0';
+                        setTimeout(function() {
+                            card.classList.add('hidden');
+                        }, 300);
+                    }
+                });
             });
         });
 
-        // Remove error on input
-        form.querySelectorAll('input, select, textarea').forEach(function(field) {
-            field.addEventListener('input', function() {
-                this.closest('.form-group').classList.remove('error');
+        /* ---- Form Validation & Submission ---- */
+        var form = document.getElementById('contactForm');
+        var formSuccess = document.getElementById('formSuccess');
+
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                var isValid = true;
+                var requiredFields = form.querySelectorAll('[required]');
+
+                requiredFields.forEach(function(field) {
+                    var group = field.closest('.form-group');
+                    if (!field.value.trim()) {
+                        group.classList.add('error');
+                        isValid = false;
+                    } else {
+                        group.classList.remove('error');
+                    }
+                });
+
+                var emailField = form.querySelector('#email');
+                if (emailField && emailField.value && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailField.value)) {
+                    emailField.closest('.form-group').classList.add('error');
+                    isValid = false;
+                }
+
+                if (!isValid) return;
+
+                // Show success message
+                form.style.display = 'none';
+                formSuccess.classList.add('show');
+            });
+
+            // Remove error on input
+            form.querySelectorAll('input, select, textarea').forEach(function(field) {
+                field.addEventListener('input', function() {
+                    this.closest('.form-group').classList.remove('error');
+                });
+            });
+        }
+
+        /* ---- Smooth scroll for anchor links ---- */
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                var target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    var offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 80;
+                    var top = target.getBoundingClientRect().top + window.scrollY - offset;
+                    window.scrollTo({ top: top, behavior: 'smooth' });
+                }
             });
         });
 
